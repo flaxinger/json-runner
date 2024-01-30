@@ -1,52 +1,31 @@
-name: ✨ Feature request
-description: Suggest a feature or enhancement for Streamlit
-labels: [type:enhancement]
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to suggest a feature or enhancement for Streamlit!
-        We really appreciate the community's efforts to improve Streamlit ❤️
-  - type: checkboxes
-    attributes:
-      label: Checklist
-      description: Please confirm and check all the following options.
-      options:
-        - label: I have searched the [existing issues](https://github.com/streamlit/streamlit/issues) for similar feature requests.
-          required: true
-        - label: I added a descriptive title and summary to this issue.
-          required: true
-  - type: textarea
-    attributes:
-      label: Summary
-      description: Type here a clear and concise description of the feature or enhancement request. Aim for 2-3 sentences.
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Why?
-      description: Please outline the problem, motivation, or use case related to this feature request.
-      placeholder: |
-        I'm always frustrated when ...
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: How?
-      description: |
-        Please describe the solution or implementation you'd like to see. This might include suggestions for `st` commands, new parameters, or UI mockups.
-        Don't worry if you don't have a clear solution in mind; any input helps!
-      placeholder: |
-        Introduce a new command called `st.foo` with the following set of parameters...
-    validations:
-      required: false
-  - type: textarea
-    attributes:
-      label: Additional Context
-      description: |
-        Links? References? Anything that will give us more context about the feature request here!
-        For example, did this feature request come from https://discuss.streamlit.io or another site? Link the original source here!
-
-        _Tip: You can attach images by clicking this area to highlight it and then dragging files in._
-    validations:
-      required: false
+---
+title: 38-Cloud
+homepage: https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset
+category: EarthScience
+description: Contains 38 Landsat 8 scene images and their manually extracted pixel-level ground truths for cloud detection. They are cropped into multiple 384*384 patches. It has 8400 patches for training and 9201 patches for testing.
+version: 1.0
+keywords: Landsat 8, cloud detection, image segmentation, semantic segmentation.
+image: https://github.com/SorourMo/38-Cloud-A-Cloud-Segmentation-Dataset/blob/master/sample/blue_patch_192_10_by_12_LC08_L1TP_002053_20160520_20170324_01_T1.jpg
+temporal:
+spatial: 384*384
+access_level: public
+copyrights:
+accrual_periodicity: 
+specification:
+data_quality: false
+data_dictionary: 
+language: en
+license: Apache License
+publisher:
+  - name: 
+    web: 
+organization:
+  - name: Laboratory for Robotic Vision (LRV), School of Engineering Science, Simon Fraser University, Canada
+    web: 
+issued_time: 2019.02
+sources:
+  - name: 
+    access_url: 
+references:
+  - title: 
+    reference: 
